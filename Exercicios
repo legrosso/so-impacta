@@ -1,0 +1,27 @@
+1-
+
+2-Para permitir o compartilhamento dos recursos de hardware por diversas
+aplicações e Para facilitar o desenvolvimento de novas aplicações, deixando o
+gerenciamento dos recursos de hardware a cargo do sistema operacional.
+
+3-é chamada de POSIX.
+ex:Unix, Windows
+
+4- programas em execução que utilizam recursos (tempo de CPU,
+memória etc.) para realizar suas tarefas.
+
+5-sim,pois Normalmente há mais processos do que processadores
+os processos precisam compartilhar o processador
+cada processo recebe uma parcela do tempo de execução no
+processador.
+
+6-Ao chavear entre processos, o sistema operacional salva todo o estado do
+processo que está em execução e carrega o estado do processo que
+entrará em execução.
+
+7-Threads são fluxos de execução que rodam dentro de um processo (aplicação). Normalmente os threads compartilham regiões de
+memória, mas não necessariamente. Lembre-se de encapsulamento. Processos, os avós dos threads permitem que o seu 
+sistema operacional execute mais de uma aplicação ao mesmo tempo enquanto que threads permitem que sua aplicação execute
+mais de um método ao mesmo tempo. 
+
+8-
