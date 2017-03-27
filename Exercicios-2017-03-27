@@ -24,4 +24,20 @@ memória, mas não necessariamente. Lembre-se de encapsulamento. Processos, os a
 sistema operacional execute mais de uma aplicação ao mesmo tempo enquanto que threads permitem que sua aplicação execute
 mais de um método ao mesmo tempo. 
 
-8-
+8-Quando o processo que está em execução (running) muda para o estado
+de espera (waiting).
+Quando um processo encerra (terminated).
+Note que estas duas condições dependem somente do próprio processo, e o
+processador não pode ser "tomado" do processo. Neste caso, o escalonamento
+é chamado de não-preemptivo.
+Quando o processo que está em execução (running) muda para o estado
+de pronto (ready) (por exemplo, devido a uma interrupção).
+Quando o processo que está em espera (waiting) muda para o estado de
+pronto (ready) (por exemplo, quando uma operação de E/S se encerra).
+Note que estas duas condições ocorrem como eventos externos ao processo
+que está em execução. Assim, o sistema operacional pode "tomar" o
+processador, mesmo que o processo ainda tenha instruções a executar. Neste
+caso, o escalonamento é chamado de preemptivo.
+
+9-
+
